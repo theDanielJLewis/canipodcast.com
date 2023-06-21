@@ -13,6 +13,7 @@
 		"@hookform/resolvers": "^3.1.1",
 		"@radix-ui/react-label": "^2.0.2",
 		"@radix-ui/react-slot": "^1.0.2",
+		"active-campaign-react": "^1.4.0",
 		"autoprefixer": "10.4.14",
 		"class-variance-authority": "^0.6.0",
 		"clsx": "^1.2.1",
