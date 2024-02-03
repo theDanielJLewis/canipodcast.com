@@ -8,7 +8,8 @@
 		"start": "next start -p 3500",
 		"lint": "next lint",
 		"tsc": "tsc",
-		"pm2-start": "pm2 start 'yarn start'"
+		"pm2-start": "pm2 start 'yarn start'",
+		"pi-import": "ts-node src/tools/importPiData.ts"
 	},
 	"dependencies": {
 		"@hookform/resolvers": "^3.3.4",
