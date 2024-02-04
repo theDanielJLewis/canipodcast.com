@@ -19,6 +19,7 @@ type RSSTag = {
     short?: string;
     long: string;
   };
+  required?: boolean;
   parents: string[];
   parentsDescription?: string;
   count: string;
