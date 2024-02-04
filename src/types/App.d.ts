@@ -3,6 +3,8 @@ type SupportedTag = {
   tag: string;
   url?: string;
   parents?: string[];
+  description?: string;
+  image?: string;
 };
 
 type App = {
