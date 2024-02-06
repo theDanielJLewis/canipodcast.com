@@ -24,6 +24,7 @@ type RSSTag = {
   parentsDescription?: string;
   count: string;
   nodeValue?: string;
+  valueLimit?: number;
   attributes?: {
     name: string;
     required: boolean;
