@@ -21,6 +21,10 @@ type AppSupportedFeature = {
   image?: string
   supportedSinceDate?: Date
   supportedSinceVersion?: string
+  usedForSearch?: boolean
+  required?: boolean
+  hidden?: boolean
+  deprecated?: boolean
 }
 
 type App = {
