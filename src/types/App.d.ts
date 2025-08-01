@@ -14,11 +14,13 @@ type AppPlatform =
   | "wordpress"
 
 type AppSupportedFeature = {
-  tagSlug: string
+  slug: string
   url?: string
   parents?: string[]
   usageNotes?: string
   image?: string
+  defaultValue?: string
+  settingLocation?: string
   supportedSinceDate?: Date
   supportedSinceVersion?: string
   usedForSearch?: boolean
