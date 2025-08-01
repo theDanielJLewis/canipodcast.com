@@ -1,8 +1,9 @@
 type Feature = {
-  label: string;
-  slug: string;
-  type: string;
-  tag?: string;
-  description: string;
-  parents?: string[];
-};
+  label: string
+  slug: string
+  description: string
+  type: "formatting" | "metadata" | "interactivity" | "rss"
+  rssTag?: string
+  rssParentSlugs?: string[]
+  featureParentSlugs?: string[]
+}
