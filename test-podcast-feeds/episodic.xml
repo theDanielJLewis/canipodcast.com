@@ -1,0 +1,137 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+  xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+  xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+  xmlns:podcast="https://podcastindex.org/namespace/1.0"
+  xmlns:rawvoice="https://blubrry.com/developer/rawvoice-rss/"
+>
+  <channel>
+    <title>My Awesome Podcast</title>
+    <atom:link href="https://feeds.podcastmirror.com/theaudacitytopodcast" rel="self"
+      type="application/rss+xml" />
+    <link>https://theaudacitytopodcast.com/</link>
+    <description><![CDATA[How will <em>you</em> (&lt;em&gt;) be <strong>awesome</strong> (&lt;strong&gt;) today? Powered by <a href="https://canipodcast.com">Can I Podcast? (&lt;a&gt;)</a> (&lt;description&gt;)]]></description>
+    <lastBuildDate>Thu, 31 Jul 2025 06:59:59 +0000</lastBuildDate>
+    <language>en-US</language>
+    <sy:updatePeriod>hourly</sy:updatePeriod>
+    <sy:updateFrequency>1</sy:updateFrequency>
+    <generator>https://canipodcast.com</generator>
+    <image>
+      <url>
+        https://theaudacitytopodcast.com/wp-content/uploads/2025/02/tap-touch-icon-512-128x128.png</url>
+      <title>The Audacity to Podcast®</title>
+      <link>https://theaudacitytopodcast.com/</link>
+      <width>32</width>
+      <height>32</height>
+    </image>
+    <podcast:value type="lightning" method="keysend" suggested="0.00000100000">
+      <podcast:valueRecipient name="Daniel J. Lewis (alby)" type="node"
+        address="02a296baf14470898ddf8e733520d8dc221b3dbb0193a97ffab28d6923918ae084"
+        customKey="696969" customValue="1" split="100" />
+    </podcast:value>
+    <podcast:image
+      href="https://theaudacitytopodcast.com/wp-content/uploads/2020/03/tap-cover-art-4-3000x3000-1.png"
+      aspect-ratio="1/1" width="3000" height="3000" type="image/png" purpose="artwork" />
+    <podcast:image
+      href="https://theaudacitytopodcast.com/wp-content/uploads/2025/07/social-wide-scaled.png"
+      aspect-ratio="1.91/1" width="2560" height="1340" type="image/png" purpose="social artwork" />
+    <podcast:image
+      href="https://theaudacitytopodcast.com/wp-content/uploads/2025/07/cover-art-circle@2x-scaled.png"
+      aspect-ratio="1/1" width="2560" height="2560" type="image/png" purpose="circular artwork" />
+    <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/" />
+    <podcast:locked>yes</podcast:locked>
+    <itunes:summary><![CDATA[How will <em>you</em> (&lt;em&gt;) be <strong>awesome</strong> (&lt;strong&gt;) today? Powered by <a href="https://canipodcast.com">Can I Podcast? (&lt;a&gt;)</a> (&lt;itunes:summary&gt;)]]></itunes:summary>
+    <itunes:author>Daniel J. Lewis</itunes:author>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:image href="https://feeds.podcastmirror.com/~images/2285111753979288.png" />
+    <itunes:type>episodic</itunes:type>
+    <itunes:owner>
+      <itunes:name>Daniel J. Lewis</itunes:name>
+      <itunes:email>feedback@theaudacitytopodcast.com</itunes:email>
+    </itunes:owner>
+    <copyright>&#xA9; 2025 D.Joseph Design LLC</copyright>
+    <podcast:license>&#xA9; 2025 D.Joseph Design LLC</podcast:license>
+    <podcast:medium>podcast</podcast:medium>
+    <itunes:subtitle><![CDATA[How will <em>you</em> (&lt;em&gt;) be <strong>awesome</strong> (&lt;strong&gt;) today? Powered by <a href="https://canipodcast.com">Can I Podcast? (&lt;a&gt;)</a> (&lt;itunes:subtitle&gt;)]]></itunes:subtitle>
+    <itunes:category text="Technology" />
+    <itunes:category text="Business">
+      <itunes:category text="Marketing" />
+    </itunes:category>
+    <itunes:category text="Education">
+      <itunes:category text="How To" />
+    </itunes:category>
+    <rawvoice:rating>TV-G</rawvoice:rating>
+    <rawvoice:location>Cincinnati, OH</rawvoice:location>
+    <podcast:location rel="subject">Cincinnati, OH</podcast:location>
+    <podcast:updateFrequency rrule="FREQ=WEEKLY;BYDAY=WE">Weekly</podcast:updateFrequency>
+    <podcast:podroll>
+      <podcast:remoteItem feedGuid="0e4bc45e-eedf-5e73-9853-a28b611a7e75" />
+      <podcast:remoteItem feedGuid="917393e3-1b1e-5cef-ace4-edaa54e1f810" />
+      <podcast:remoteItem feedGuid="9b024349-ccf0-5f69-a609-6b82873eab3c" />
+      <podcast:remoteItem feedGuid="29cdca4a-32d8-56ba-b48b-09a011c5daa9" />
+      <podcast:remoteItem feedGuid="396d9ae0-da7e-5557-b894-b606231fa3ea" />
+      <podcast:remoteItem feedGuid="a66a168f-7005-51f9-a15b-d12d49b2e0cf" />
+    </podcast:podroll>
+    <rawvoice:frequency>Weekly</rawvoice:frequency>
+    <rawvoice:donate href="https://theaudacitytopodcast.com/giveback">Give back to The Audacity to
+      Podcast</rawvoice:donate>
+    <podcast:funding url="https://theaudacitytopodcast.com/giveback">Give back to The Audacity to
+      Podcast</podcast:funding>
+    <podcast:person role="Host"
+      img="https://theaudacitytopodcast.com/wp-content/uploads/2020/02/Daniel-J-Lewis-headshot-2018-square.jpg"
+      href="https://theaudacitytopodcast.com/">Daniel J. Lewis</podcast:person>
+    <podcast:podping usesPodping="true" />
+    <podcast:guid>2eda53b6-23a1-59ae-8bb6-f960a2e76d3c</podcast:guid>
+    <rawvoice:subscribe feed="https://feeds.podcastmirror.com/theaudacitytopodcast"
+      itunes="https://theaudacitytopodcast.com/applepodcasts"
+      spotify="https://theaudacitytopodcast.com/spotify"></rawvoice:subscribe>
+    <item>
+      <title>10 Ways to be Awesome (&lt;title&gt;)</title>
+      <link>https://theaudacitytopodcast.com/whats-a-podcast-anymore/</link>
+      <pubDate>Wed, 30 Jul 2025 10:00:00 +0000</pubDate>
+      <guid isPermaLink="false">https://theaudacitytopodcast.com/?p=37198</guid>
+      <enclosure
+        url="https://media.blubrry.com/theaudacitytopodcast/op3.dev/e/traffic.libsyn.com/noodlemx/tap400.mp3"
+        length="10971606" type="audio/mpeg" />
+      <podcast:image
+        href="https://theaudacitytopodcast.com/wp-content/uploads/2025/07/Whats-a-Podcast-Anymore-square.png"
+        aspect-ratio="1/1" width="1400" height="1400" type="image/png" purpose="artwork" />
+      <podcast:image
+        href="https://theaudacitytopodcast.com/wp-content/uploads/2025/07/Whats-a-Podcast-Anymore-wide.png"
+        aspect-ratio="1.91/1" width="1920" height="1005" type="image/png" purpose="artwork social" />
+      <podcast:image
+        href="https://theaudacitytopodcast.com/wp-content/uploads/2025/07/Whats-a-Podcast-Anymore-thumb.png"
+        aspect-ratio="1/1" width="1400" height="1400" type="image/png" purpose="thumbnail" />
+      <podcast:image
+        href="https://theaudacitytopodcast.com/wp-content/uploads/2025/07/Whats-a-Podcast-Anymore-background.png"
+        aspect-ratio="1.91/1" width="1920" height="1005" type="image/png" purpose="canvas" />
+      <podcast:image
+        href="https://theaudacitytopodcast.com/wp-content/uploads/2025/07/Whats-a-Podcast-Anymore-tall.png"
+        aspect-ratio="2/3" width="1400" height="2100" type="image/png"
+        purpose="artwork social pinterest" />
+      <itunes:title>10 Ways to be Awesome (&lt;itunes:title&gt;)</itunes:title>
+      <description><![CDATA[<p>(&lt;description&gt;)]]></description>
+      <itunes:summary><![CDATA[<p>(&lt;itunes:summary&gt;)]]></itunes:summary>
+      <content:encoded><![CDATA[<p>(&lt;content:encoded&gt;)]]></content:encoded>
+      <itunes:image
+        href="https://theaudacitytopodcast.com/wp-content/uploads/2025/07/Whats-a-Podcast-Anymore-square.png" />
+      <itunes:episode>1</itunes:episode>
+      <podcast:episode>1</podcast:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>22:31</itunes:duration>
+      <podcast:transcript
+        url="https://media.theaudacitytopodcast.com/audio/400/tap400-transcript.vtt"
+        language="en-us" type="text/vtt" rel="captions" />
+      <podcast:chapters url="https://media.theaudacitytopodcast.com/audio/400/tap400-metadata.json"
+        type="application/json+chapters" />
+    </item>
+
+  </channel>
+</rss>
