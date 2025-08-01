@@ -1,0 +1,65 @@
+{
+	"title": "<podcast:location>",
+	"description": "Links to an external file containing chapter data for the episode.",
+	"spec": "https://github.com/Podcastindex-org/podcast-namespace/blob/main/docs/1.0.md#location",
+	"status": "phase 1",
+	"categories": ["Podcast Namespace", "RSS", "podcaster", "audience"],
+	"stats": {
+		"libsyn": {
+			"current": ""
+		},
+		"blubrry": {
+			"current": ""
+		},
+		"captivate": {
+			"current": ""
+		},
+		"rsscom": {
+			"current": ""
+		},
+		"powerpress": {
+			"current": ""
+		},
+		"acast": {
+			"current": ""
+		},
+		"rssblue": {
+			"current": ""
+		},
+		"buzzsprout": {
+			"current": ""
+		},
+		"spotifyforpodcasters": {
+			"current": ""
+		},
+		"fireside": {
+			"current": ""
+		},
+		"redcircle": {
+			"current": ""
+		},
+		"castos": {
+			"current": ""
+		},
+		"transistor": {
+			"current": ""
+		},
+		"overcast": {
+			"current": "n"
+		},
+		"applepodcasts": {
+			"current": "n"
+		},
+		"fountain": {
+			"current": ""
+		},
+		"podcastaddict": {
+			"current": ""
+		}
+	},
+	"notes": "",
+	"notes_by_num": {},
+	"parent": "audio",
+	"keywords": "",
+	"shown": true
+}

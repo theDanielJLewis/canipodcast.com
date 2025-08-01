@@ -1,0 +1,34 @@
+[
+	{
+		"name": "PowerPress",
+		"slug": "powerpress",
+		"os": ["WordPress", "web"],
+		"users": ["podcaster"],
+		"website": "https://wordpress.org/plugins/powerpress/",
+		"type": ["publishing"]
+	},
+	{
+		"name": "Captivate",
+		"slug": "captivate",
+		"os": ["web"],
+		"users": ["podcaster"],
+		"website": "https://captivate.fm",
+		"type": ["publishing"]
+	},
+	{
+		"name": "Overcast",
+		"slug": "overcast",
+		"os": ["web", "iOS"],
+		"users": ["audience"],
+		"website": "https://captivate.fm",
+		"type": ["player"]
+	},
+	{
+		"name": "Fountain",
+		"slug": "fountain",
+		"os": ["web", "iOS", "Android"],
+		"users": ["audience"],
+		"website": "https://fountain.fm",
+		"type": ["player"]
+	}
+]
