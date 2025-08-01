@@ -9,32 +9,59 @@ export const applePodcasts: App = {
     // Core RSS 2.0 Tags (Channel Level)
     {
       tagSlug: "title",
-      parents: ["channel", "item"],
+      parents: ["channel"],
       usageNotes:
-        "Will be used for episode titles if `<itunes:title>` is not present. Episode numbers permitted in this title if `<itunes:episode>` isn't used.",
+        "Will be used for podcast title if `<channel>`-level `<itunes:title>` is not present.",
+      usedForSearch: true,
+      required: true,
+    },
+    {
+      tagSlug: "title",
+      parents: ["item"],
+      usageNotes:
+        "Will be used for episode title if `<item>`-level `<itunes:title>` is not present. Season and episode numbers permitted in this title if `<itunes:episode>` isn't used.",
       usedForSearch: true,
       required: true,
     },
     {
       tagSlug: "itunes-title",
-      parents: ["channel", "item"],
+      parents: ["channel"],
+      usageNotes: "Will be used for the podcast title instead of `<title>`.",
+      usedForSearch: true,
+    },
+    {
+      tagSlug: "itunes-title",
+      parents: ["item"],
       usageNotes:
-        "Will be used for podcast or episode titles if respective `<title>` is not present. Season and episode numbers are not permitted in this title.",
+        "Will be used for episode titles instead of `<title>`. Season and episode numbers are not permitted in this title.",
       usedForSearch: true,
     },
     {
       tagSlug: "description",
-      parents: ["channel", "item"],
+      parents: ["channel"],
       usageNotes:
-        "Replaces `<itunes:summary>` for podcast and episode descriptions. Maximum 4,000 bytes in `<channel>` and 10,000 bytes in `<item>`. ",
+        "Replaces `<itunes:summary>` for podcast descriptions. Maximum 4,000 bytes. ",
+      required: true,
+    },
+    {
+      tagSlug: "description",
+      parents: ["item"],
+      usageNotes:
+        "Replaces `<itunes:summary>` and `<content:encoded>` for episode notes/descriptions. 10,000 bytes in `<item>`.",
       required: true,
     },
 
     {
       tagSlug: "link",
-      parents: ["channel", "item"],
+      parents: ["channel"],
       usageNotes:
-        "The URL of the podcast website or episode webpage. Both uses will be hyperlinked in Apple Podcasts.",
+        "The URL of the podcast website. Will be hyperlinked in Apple Podcasts from the podcast page.",
+    },
+    {
+      tagSlug: "link",
+      parents: ["item"],
+      usageNotes:
+        "The URL of the episode webpage. Will be hyperlinked in Apple Podcasts from the episode page.",
     },
     {
       tagSlug: "language",
@@ -162,39 +189,62 @@ export const applePodcasts: App = {
     // Episode Level Tags
     {
       tagSlug: "item",
+      required: true,
     },
     {
       tagSlug: "enclosure",
+      parents: ["item"],
+      required: true,
     },
     {
       tagSlug: "guid",
+      parents: ["item"],
+      usageNotes:
+        "If a GUID is not provided, an episode's enclosure URL will be used instead.",
+      required: true,
     },
     {
       tagSlug: "pub-date",
+      parents: ["item"],
     },
     {
       tagSlug: "itunes-duration",
-    },
-    {
-      tagSlug: "itunes-episode-type",
-    },
-    {
-      tagSlug: "itunes-season",
+      parents: ["item"],
+      usageNotes:
+        "Accepts multiple formats, but recommended to be length in seconds.",
     },
     {
       tagSlug: "itunes-episode",
+      parents: ["item"],
+      usageNotes:
+        "Apple Podcasts will display the episode number differently depending on the podcast type (`episodic` or `serial`) and the episode context.",
+    },
+    {
+      tagSlug: "itunes-season",
+      parents: ["item"],
+      usageNotes:
+        "If only one season exists in the RSS feed, Apple Podcasts will not display a season number until another season is added.",
+    },
+    {
+      tagSlug: "itunes-episode-type",
+      parents: ["item"],
     },
 
     // Content and Formatting Tags
     {
       tagSlug: "content-encoded",
+      deprecated: true,
+      usageNotes:
+        "Will be used for episode notes/descriptions if `<description>` is not present. Maximum 10,000 bytes.",
     },
 
     // Podcast 2.0 Namespace Tags (Supported)
     {
       tagSlug: "podcast-transcript",
+      parents: ["item"],
       url: "https://podcasters.apple.com/support/5316-transcripts-on-apple-podcasts",
       supportedSinceDate: new Date("2024-03-01"),
+      usageNotes: "Apple Podcasts prefers VTT over SRT. ",
     },
 
     // HTML Formatting in Descriptions (Limited Support)
