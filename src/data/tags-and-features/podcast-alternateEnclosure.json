@@ -1,0 +1,12 @@
+{
+  "title": "<podcast:alternateEnclosure>",
+  "description": "Links to an external file containing chapter data for the episode.",
+  "spec": "https://github.com/Podcastindex-org/podcast-namespace/blob/main/docs/1.0.md#alternate-enclosure",
+  "status": "phase 1",
+  "categories": ["Podcast Namespace", "RSS", "podcaster", "audience"],
+  "notes": "",
+  "notes_by_num": {},
+  "parent": "audio",
+  "keywords": "",
+  "shown": true
+}

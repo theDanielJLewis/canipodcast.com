@@ -17,7 +17,7 @@ type AppSupportedFeature = {
   tagSlug: string
   url?: string
   parents?: string[]
-  description?: string
+  usageNotes?: string
   image?: string
   supportedSinceDate?: Date
   supportedSinceVersion?: string
@@ -25,6 +25,8 @@ type AppSupportedFeature = {
 
 type App = {
   name: string
+  description: string
+  cost?: string
   type: AppType[]
   url: string
   iconUrl: string
